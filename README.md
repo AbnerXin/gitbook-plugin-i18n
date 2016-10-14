@@ -1,14 +1,14 @@
 # plugin-i18n
 
-This plugin adds i18n buttons in the GitBook website toolbar to share book on social networks.
+This plugin adds i18n buttons in the GitBook website toolbar to implement i18n according different url.
 
 ### Disable this plugin
 
-This is a default plugin and it can be disabled using a `book.json` configuration:
+Using a `book.json` configuration to use this plugin:
 
 ```
 {
-    plugins: ["-i18n"]
+    plugins: ["i18n"]
 }
 ```
 

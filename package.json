@@ -1,0 +1,44 @@
+{
+  "name": "gitbook-plugin-i18n",
+  "description": "implement i18n according different url",
+  "main": "index.js",
+  "version": "1.0.0",
+  "dependencies": {
+    "lodash": "^3.10.1"
+  },
+  "engines": {
+    "gitbook": ">=2.4.0"
+  },
+  "homepage": "https://github.com/AbnerXin/gitbook-plugin-i18n",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AbnerXin/gitbook-plugin-i18n.git"
+  },
+  "license": "Apache-2.0",
+  "gitbook": {
+    "properties": {
+      "all": {
+        "default": [
+          "chinese",
+          "english"
+        ],
+        "items": {
+          "type": "string"
+        },
+        "type": "array",
+        "uniqueItems": true
+      },
+      "EnglishUrl": {
+        "title": "english",
+        "type": "string"
+      },
+      "ChineseUrl": {
+        "title": "chinese",
+        "type": "string"
+      }
+    }
+  },
+  "devDependencies": {
+    "eslint": "^2.7.0"
+  }
+}
