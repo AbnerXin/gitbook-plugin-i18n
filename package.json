@@ -2,7 +2,7 @@
   "name": "gitbook-plugin-i18n",
   "description": "implement i18n according different url",
   "main": "index.js",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "dependencies": {
     "lodash": "^3.10.1"
   },
@@ -30,11 +30,13 @@
       },
       "EnglishUrl": {
         "title": "english",
-        "type": "string"
+        "type": "string",
+        "default": "../en-US"
       },
       "ChineseUrl": {
         "title": "chinese",
-        "type": "string"
+        "type": "string",
+        "default": "../zh-CN"
       }
     }
   },

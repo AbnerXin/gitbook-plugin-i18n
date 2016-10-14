@@ -8,7 +8,6 @@ module.exports = {
         ]
     },
     hooks: {
-        // Compatibility layer for gitbook < 2.5.0
         config: function(cfg) {
             var language = _.get(cfg, 'links.i18n', {});
 

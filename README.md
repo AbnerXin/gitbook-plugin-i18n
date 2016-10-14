@@ -2,9 +2,9 @@
 
 This plugin adds i18n buttons in the GitBook website toolbar to implement i18n according different url.
 
-### Disable this plugin
+### Use this plugin
 
-Using a `book.json` configuration to use this plugin:
+add a `book.json` configuration to use this plugin:
 
 ```
 {
