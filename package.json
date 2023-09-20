@@ -2,7 +2,7 @@
   "name": "gitbook-plugin-i18n",
   "description": "implement i18n according different url",
   "main": "index.js",
-  "version": "1.2.1",
+  "version": "1.0.0",
   "dependencies": {
     "lodash": "^3.10.1"
   },
