@@ -25,8 +25,8 @@ configuration is:
             "all": [
                 "english", "chinese"
             ],
-            "ChineseUrl": "../zh-CN",
-            "EnglishUrl": "../en-US"
+            "ChineseUrl": "/zh-CN/",
+            "EnglishUrl": "/en-US/"
         }
     }
 }
